@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>liliu&#39;s blog</title>
+    <title>new post | liliu&#39;s blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Li Liu">
+    
+    <meta name="description" itemprop="description" content="this is my first new post">
     
     
     
@@ -58,71 +60,82 @@
 </div>
     </header>
     <div id="container">
-      <div id="main">
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2015/11/07/2015-11-07/" title="2015-11-07" itemprop="url">
-  
-    <h1 itemprop="name">2015-11-07</h1>
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
     
-     
-           <p itemprop="description" >2015-102015年的10月大事记:感谢赵同学在零点时刻发来的生日祝福;感谢偶遇的小帅哥送的纪念币;感谢十年的友谊,感谢一路有你们的陪伴~~
-
-2015-11开心生活,努力工作!!!</p>
-        
+      <a href="/2015/04/17/new-post/" title="new post" itemprop="url">new post</a>
+  </h1>
+  <p class="article-author">By
     
-    <time datetime="2015-11-07T12:44:12.000Z" itemprop="datePublished">2015-11-07</time>
-  </a>
-</section>
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2015/09/05/150905-friendship/" title="150905-friendship" itemprop="url">
-  
-    <h1 itemprop="name">150905-friendship</h1>
-    
-     
-           <p itemprop="description" >内疚昨天本来说好了要给小屁孩打电话讲”开学第一课”的内容,没想到,早上起床之后因为种种原因,我竟然给忘了,老妈应该对我很失望吧,昨天还提醒我别忘了,没想到我竟然真的没记住.
-好久不见,依然如初即使和圆大概有五年没见面了,但见面一点尴尬的感觉都没有,还是熟悉的圆,一点没变~~
-压力</p>
-        
-    
-    <time datetime="2015-09-05T10:59:26.000Z" itemprop="datePublished">2015-09-05</time>
-  </a>
-</section>
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2015/04/17/new-post/" title="new post" itemprop="url">
-  
-    <h1 itemprop="name">new post</h1>
-    
-     
-      <p itemprop="description" >this is my first new post</p>
-      
-    
+      <a href="http://dhuliu.github.io" title="Li Liu">Li Liu</a>
+    </p>
+  <p class="article-time">
     <time datetime="2015-04-17T01:33:00.000Z" itemprop="datePublished">2015-04-17</time>
-  </a>
-</section>
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2015/04/16/hello-world/" title="Hello World" itemprop="url">
-  
-    <h1 itemprop="name">Hello World</h1>
+    更新日期:<time datetime="2015-11-07T12:56:25.357Z" itemprop="dateModified">2015-11-07</time>
     
-     
-           <p itemprop="description" >Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the </p>
-        
-    
-    <time datetime="2015-04-16T07:38:02.808Z" itemprop="datePublished">2015-04-16</time>
-  </a>
-</section>
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+		</div>
+		
+		<p>this is my first post.</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
 
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/relax/">relax</a>
+  </div>
+
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://dhuliu.github.io/2015/04/17/new-post/" data-title="new post | liliu&#39;s blog" data-tsina="null" class="share clearfix">
+  </div>
 
 </div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/09/05/150905-friendship/" title="150905-friendship">
+  <strong>PREVIOUS:</strong><br/>
+  <span>
+  150905-friendship</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2015/04/16/hello-world/"  title="Hello World">
+ <strong>NEXT:</strong><br/> 
+ <span>Hello World
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+</div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+  
+  </div>
 
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
@@ -198,6 +211,8 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
@@ -217,6 +232,66 @@ $(document).ready(function(){
 });
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
 
 
 
@@ -233,4 +308,4 @@ ga('send', 'pageview');
 
 
   </body>
- </html>
+</html>
